@@ -24,7 +24,7 @@ public class WhenYouCreateACell {
     @Test
     public void aLiveCellShouldBePrintedAsAnAsterisk() {
         assertThat(Cell.LIVE_CELL.toString(), is("*"));
-    	//SG expres pour échouer
+    	//SG build auto expres pour échouer
     	//assertThat(Cell.LIVE_CELL.toString(), is("|"));
     }
 
