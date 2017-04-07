@@ -22,7 +22,7 @@ public class Grid {
     private GridWriter gridWriter = new GridWriter();
 
 	// Default constructor, called on "NEW GAME" button click
-    public Grid() {
+    public Grid(7) {
         this.cells = anArrayOfDeadCells(DEFAULT_ROW_COUNT, DEFAULT_COLUMN_COUNT);
     }
 	// Create blank grid of given size, called on "Go" button click 
