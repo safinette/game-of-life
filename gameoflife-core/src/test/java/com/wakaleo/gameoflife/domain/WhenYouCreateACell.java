@@ -7,6 +7,7 @@ import static org.hamcrest.Matchers.is;
 
 import org.junit.Test;
 
+//Commentaire pour commit
 public class WhenYouCreateACell {
 
     @Test
@@ -24,7 +25,7 @@ public class WhenYouCreateACell {
     @Test
     public void aLiveCellShouldBePrintedAsAnAsterisk() {
         assertThat(Cell.LIVE_CELL.toString(), is("*"));
-    	//SG build auto expres pour échouer
+    	//SG build auto expres pour echouer
     	//assertThat(Cell.LIVE_CELL.toString(), is("|"));
     }
 
