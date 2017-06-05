@@ -9,7 +9,8 @@ package com.wakaleo.gameoflife.domain;
  */
 public enum Cell {
     //SG test build auto
-    LIVE_CELL("*"), DEAD_CELL(".");
+    //SG tests ko * en - 
+    LIVE_CELL("-"), DEAD_CELL(".");
 
     private String symbol;//SG commenter pour pas que ca compile
 
