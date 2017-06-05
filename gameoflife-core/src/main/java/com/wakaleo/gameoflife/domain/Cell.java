@@ -11,7 +11,7 @@ public enum Cell {
     //SG test build auto
     LIVE_CELL("*"), DEAD_CELL(".");
 
-    //private String symbol;//SG commenter pour pas que ca compile
+    private String symbol;//SG commenter pour pas que ca compile
 
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
